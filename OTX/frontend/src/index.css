@@ -1,0 +1,157 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter-tight";
+@import "@fontsource-variable/jetbrains-mono";
+
+@theme {
+  --color-surface-0: #0A0A0A;
+  --color-surface-1: #131313;
+  --color-surface-2: #1B1B1B;
+  --color-line: #2A2A2A;
+  --color-accent: #FF7A00;
+  --color-accent-strong: #FF9D2E;
+  --color-accent-hover: #FFB347;
+  --color-danger: #EF4444;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #A3A3A3;
+  --font-sans: "Inter Tight Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+  --radius-sharp: 2px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-surface-0);
+  color: #F5F5F5;
+  -webkit-font-smoothing: antialiased;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@utility font-data {
+  font-family: var(--font-mono);
+}
+
+@utility panel-surface {
+  border: 1px solid var(--color-line);
+  background-color: var(--color-surface-1);
+  border-radius: var(--radius-sharp);
+  transition: box-shadow 200ms ease-out;
+}
+
+.glow-accent {
+  box-shadow: 0 0 20px rgba(255, 122, 0, 0.15);
+}
+
+.glow-card {
+  box-shadow: 0 0 15px rgba(255, 122, 0, 0.08);
+}
+
+.glass-overlay {
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 122, 0, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #FF7A00, #FF9D2E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.row-hover {
+  transition-property: color, background-color;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+
+.row-hover:hover {
+  background-color: var(--color-surface-2);
+}
+
+@utility shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-surface-1) 0%,
+    var(--color-surface-2) 50%,
+    var(--color-surface-1) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@utility scroll-fade-left {
+  background: linear-gradient(to right, var(--color-surface-0), transparent);
+}
+
+@utility scroll-fade-right {
+  background: linear-gradient(to left, var(--color-surface-0), transparent);
+}
+
+.progress-track {
+  height: 4px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  background-color: var(--color-surface-2);
+}
+
+.progress-indeterminate {
+  height: 100%;
+  width: 33%;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-strong));
+  animation: progress-slide 1.2s ease-in-out infinite;
+}
+
+@keyframes progress-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+
+.progress-bar {
+  display: block;
+  width: 100%;
+  height: 4px;
+  appearance: none;
+  border: 1px solid var(--color-line);
+  background-color: var(--color-surface-2);
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: var(--color-surface-2);
+}
+
+.progress-bar::-webkit-progress-value {
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-strong));
+  transition: width 150ms ease-out;
+}
+
+.progress-bar::-moz-progress-bar {
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-strong));
+}

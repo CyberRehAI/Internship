@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+OTXv2
+openpyxl
+httpx

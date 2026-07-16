@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+OTXv2
+openpyxl
+httpx
+stix2
+# 3.3.x wheels omit the bundled STIX JSON schemas (oasis-open/cti-stix-validator#248).
+stix2-validator==3.2.0
+tqdm
+pytest

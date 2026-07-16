@@ -1,0 +1,33 @@
+# Virtual environments
+**/otx_env/
+
+# Node modules
+**/node_modules/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# IDE configs and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environments
+**/.env
+**/.env.*
+
+# Large data files
+**/*.jsonl
+**/*.zip
+**/*.csv
+
+# JSON files (except configuration files)
+**/*.json
+!**/package.json
+!**/package-lock.json
+!**/tsconfig.json
+!**/tsconfig.*.json
+!**/.oxlintrc.json
+!**/checkpoint.json
