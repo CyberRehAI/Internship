@@ -1,0 +1,23 @@
+{
+  "model_id": "usad_concat",
+  "embeddings_dir": "D:/AI-TDP/baselines/outputs/usad_concat/embeddings",
+  "quantile": 0.95,
+  "threshold": 10.318641567230225,
+  "n_val": 355,
+  "n_test": 1441,
+  "val_fpr": 0.05070422535211268,
+  "test_detection_rate": 0.9819569743233866,
+  "val_union_test": {
+    "precision": 0.9874389392882066,
+    "recall": 0.9819569743233866,
+    "f1": 0.9846903270702854,
+    "roc_auc": 0.9908553332486243,
+    "pr_auc": 0.9980263820742966
+  },
+  "score_stats": {
+    "val_mean": 3.984705275213215,
+    "val_std": 3.582584766431378,
+    "test_mean": 58036.29196082061,
+    "test_std": 669094.6965255952
+  }
+}

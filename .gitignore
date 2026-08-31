@@ -18,7 +18,7 @@ Thumbs.db
 **/.env
 **/.env.*
 
-# Large data files
+# Large data files (OTX / OTX2)
 **/*.jsonl
 **/*.zip
 **/*.csv
@@ -31,3 +31,12 @@ Thumbs.db
 !**/tsconfig.*.json
 !**/.oxlintrc.json
 !**/checkpoint.json
+
+# AI-TDP: allow project configs, schemas, metrics, and reports
+!AI-TDP/
+!AI-TDP/**/
+!AI-TDP/**/*.json
+!AI-TDP/**/*.csv
+!AI-TDP/baselines/outputs/**/*
+!AI-TDP/reports/**/*
+!AI-TDP/behavior/outputs/**/*

@@ -1,0 +1,23 @@
+{
+  "model_id": "tranad_concat",
+  "embeddings_dir": "D:/AI-TDP/baselines/outputs/tranad_concat/embeddings",
+  "quantile": 0.95,
+  "threshold": 10.10939817428589,
+  "n_val": 355,
+  "n_test": 1441,
+  "val_fpr": 0.05070422535211268,
+  "test_detection_rate": 0.9826509368494102,
+  "val_union_test": {
+    "precision": 0.9874476987447699,
+    "recall": 0.9826509368494102,
+    "f1": 0.9850434782608696,
+    "roc_auc": 0.9911700599153561,
+    "pr_auc": 0.9980907253113849
+  },
+  "score_stats": {
+    "val_mean": 3.853066036566882,
+    "val_std": 3.3923881869083408,
+    "test_mean": 58031.281561559685,
+    "test_std": 669097.130012652
+  }
+}

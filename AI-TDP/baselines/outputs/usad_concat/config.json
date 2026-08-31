@@ -1,0 +1,34 @@
+{
+  "model": "USAD",
+  "model_id": "usad_concat",
+  "mode": "concat",
+  "windows_dir": "D:/AI-TDP/behavior/outputs/windows",
+  "out_dir": "D:/AI-TDP/baselines/outputs/usad_concat",
+  "n_features": 194,
+  "T": 60,
+  "hidden_dim": 64,
+  "latent_dim": 32,
+  "batch_size": 64,
+  "lr": 0.001,
+  "epochs": 1,
+  "patience": 1,
+  "seed": 42,
+  "device": "cpu",
+  "best_epoch": 1,
+  "best_val_loss": 3.984705320546325,
+  "test_score": 58036.29597501735,
+  "embedding_counts": {
+    "train": {
+      "n": 1075,
+      "latent_dim": 32
+    },
+    "val": {
+      "n": 355,
+      "latent_dim": 32
+    },
+    "test": {
+      "n": 1441,
+      "latent_dim": 32
+    }
+  }
+}

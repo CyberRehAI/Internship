@@ -1,0 +1,23 @@
+{
+  "model_id": "stacked_cascade",
+  "embeddings_dir": "D:/AI-TDP/baselines/outputs/stacked_cascade/embeddings",
+  "quantile": 0.95,
+  "threshold": 100.0508014678955,
+  "n_val": 32,
+  "n_test": 32,
+  "val_fpr": 0.0625,
+  "test_detection_rate": 1.0,
+  "val_union_test": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1": 0.9696969696969697,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0
+  },
+  "score_stats": {
+    "val_mean": 64.23020565509796,
+    "val_std": 21.188465261093267,
+    "test_mean": 732.0755405426025,
+    "test_std": 54.95811778067422
+  }
+}

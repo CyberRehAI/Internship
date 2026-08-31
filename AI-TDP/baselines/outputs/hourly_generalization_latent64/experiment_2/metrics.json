@@ -1,0 +1,44 @@
+{
+  "experiment_id": 2,
+  "train_hour_id": 3,
+  "eval_hour_id": 4,
+  "train_hour_label": "11:00-12:00",
+  "eval_hour_label": "12:00-13:00",
+  "regime": "normal",
+  "threshold": 96.8406348444509,
+  "quantile": 0.95,
+  "mahalanobis_ratio": 21.207632305704177,
+  "verdict": "behavioral_drift",
+  "train": {
+    "n_windows": 355,
+    "mahalanobis": {
+      "mean": 51.96588737644696,
+      "median": 46.360329624839835,
+      "std": 21.616048224241386,
+      "pct_above_threshold": 5.070422535211268,
+      "n_anomalous": 18,
+      "n_windows": 355
+    },
+    "recon": {
+      "lstm_mean": 94.60578945858377,
+      "usad_mean": 0.01785229000617081,
+      "tranad_mean": 0.008314138347886397
+    }
+  },
+  "eval": {
+    "n_windows": 355,
+    "mahalanobis": {
+      "mean": 1102.0734319193214,
+      "median": 862.2355378077418,
+      "std": 891.033006673847,
+      "pct_above_threshold": 100.0,
+      "n_anomalous": 355,
+      "n_windows": 355
+    },
+    "recon": {
+      "lstm_mean": 77.5807439723485,
+      "usad_mean": 0.018641814901690246,
+      "tranad_mean": 0.04565848891006809
+    }
+  }
+}

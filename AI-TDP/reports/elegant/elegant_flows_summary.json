@@ -1,0 +1,596 @@
+{
+  "files": [
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/normal/normal_PLC_traffic/cap_00001_20210318035345",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/normal__cap_00001_20210318035345.csv",
+      "scenario": "normal",
+      "n_flows": 102,
+      "labels": {
+        "normal": 102
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/normal/normal_PLC_traffic/cap_00002_20210318044452",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/normal__cap_00002_20210318044452.csv",
+      "scenario": "normal",
+      "n_flows": 102,
+      "labels": {
+        "normal": 102
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/normal/normal_PLC_traffic/cap_00003_20210318053559",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/normal__cap_00003_20210318053559.csv",
+      "scenario": "normal",
+      "n_flows": 102,
+      "labels": {
+        "normal": 102
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/normal/normal_PLC_traffic/cap_00004_20210318062706",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/normal__cap_00004_20210318062706.csv",
+      "scenario": "normal",
+      "n_flows": 102,
+      "labels": {
+        "normal": 102
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/normal/normal_PLC_traffic/cap_00005_20210318071813",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/normal__cap_00005_20210318071813.csv",
+      "scenario": "normal",
+      "n_flows": 102,
+      "labels": {
+        "normal": 102
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/normal/normal_PLC_traffic/cap_00006_20210318080920",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/normal__cap_00006_20210318080920.csv",
+      "scenario": "normal",
+      "n_flows": 73,
+      "labels": {
+        "normal": 73
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/mitm_arp/MiTM_ARP_Poisoning/cap_00001_20210318034103",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/mitm_arp__cap_00001_20210318034103.csv",
+      "scenario": "mitm_arp",
+      "n_flows": 23,
+      "labels": {
+        "normal": 2,
+        "mitm_arp": 21
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/mitm_arp/MiTM_ARP_Poisoning/cap_00001_20210318084952",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/mitm_arp__cap_00001_20210318084952.csv",
+      "scenario": "mitm_arp",
+      "n_flows": 28,
+      "labels": {
+        "normal": 2,
+        "mitm_arp": 26
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/mitm_full_chain/MiTM_Full_Chain/cap_00001_20210318095210",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/mitm_full_chain__cap_00001_20210318095210.csv",
+      "scenario": "mitm_full_chain",
+      "n_flows": 22,
+      "labels": {
+        "normal": 6,
+        "mitm_full_chain": 16
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/mitm_full_chain/MiTM_Full_Chain/cap_00001_20210318100414",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/mitm_full_chain__cap_00001_20210318100414.csv",
+      "scenario": "mitm_full_chain",
+      "n_flows": 16,
+      "labels": {
+        "normal": 4,
+        "mitm_full_chain": 12
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/mitm_full_chain/MiTM_Full_Chain/cap_00001_20210318101444",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/mitm_full_chain__cap_00001_20210318101444.csv",
+      "scenario": "mitm_full_chain",
+      "n_flows": 27,
+      "labels": {
+        "normal": 5,
+        "mitm_full_chain": 22
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00001_20210313193832",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00001_20210313193832.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 22,
+        "dos_flood": 7978
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00002_20210313194426",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00002_20210313194426.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00003_20210313194450",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00003_20210313194450.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00004_20210313194514",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00004_20210313194514.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00005_20210313194538",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00005_20210313194538.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00006_20210313194603",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00006_20210313194603.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00007_20210313194627",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00007_20210313194627.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t1/cap_00008_20210313194651",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00008_20210313194651.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 7642,
+        "dos_flood": 358
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00009_20210313195533",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00009_20210313195533.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00010_20210313195557",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00010_20210313195557.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00011_20210313195622",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00011_20210313195622.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00012_20210313195647",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00012_20210313195647.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00013_20210313195711",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00013_20210313195711.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00014_20210313195736",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00014_20210313195736.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00015_20210313195801",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00015_20210313195801.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_1_t2/cap_00016_20210313195826",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00016_20210313195826.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 2358,
+        "dos_flood": 5642
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t1/cap_00016_20210313195826",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00016_20210313195826.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 2454,
+        "dos_flood": 5546
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t1/cap_00017_20210313200245",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00017_20210313200245.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t1/cap_00018_20210313200245",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00018_20210313200245.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t1/cap_00019_20210313200246",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00019_20210313200246.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t1/cap_00020_20210313200247",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00020_20210313200247.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t2/cap_00249_20210313200544",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00249_20210313200544.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 5686,
+        "dos_flood": 2314
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t2/cap_00250_20210313201043",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00250_20210313201043.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t2/cap_00251_20210313201044",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00251_20210313201044.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t2/cap_00252_20210313201044",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00252_20210313201044.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/single_flood_rate_2_t2/cap_00253_20210313201045",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00253_20210313201045.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t1/cap_00485_20210313201342",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00485_20210313201342.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 5539,
+        "dos_amp": 2461
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t1/cap_00486_20210313202103",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00486_20210313202103.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t1/cap_00487_20210313202104",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00487_20210313202104.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t1/cap_00488_20210313202105",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00488_20210313202105.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t1/cap_00489_20210313202106",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00489_20210313202106.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t2/cap_00661_20210313202403",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00661_20210313202403.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 1199,
+        "dos_amp": 6801
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t2/cap_00662_20210313202914",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00662_20210313202914.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t2/cap_00663_20210313202915",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00663_20210313202915.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t2/cap_00664_20210313202916",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00664_20210313202916.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/single_amp_t2/cap_00665_20210313202916",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00665_20210313202916.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/multiple_flood_0100_0125/cap_00001_20210314005755",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00001_20210314005755.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 34,
+        "dos_flood": 7966
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/multiple_flood_0100_0125/cap_00001_20210314010944",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00001_20210314010944.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 30,
+        "dos_flood": 7970
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_flood/multiple_flood_0100_0125/cap_00002_20210314010231",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_flood__cap_00002_20210314010231.csv",
+      "scenario": "dos_flood",
+      "n_flows": 8000,
+      "labels": {
+        "dos_flood": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/multiple_amp_0130_0200/cap_00001_20210314013327",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00001_20210314013327.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "normal": 48,
+        "dos_amp": 7952
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/multiple_amp_0130_0200/cap_00002_20210314013735",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00002_20210314013735.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    },
+    {
+      "pcap": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/work_pcaps/dos_amp/multiple_amp_0130_0200/cap_00003_20210314013745",
+      "csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/dos_amp__cap_00003_20210314013745.csv",
+      "scenario": "dos_amp",
+      "n_flows": 8000,
+      "labels": {
+        "dos_amp": 8000
+      }
+    }
+  ],
+  "label_counts": {
+    "normal": 25614,
+    "mitm_arp": 47,
+    "mitm_full_chain": 50,
+    "dos_flood": 213774,
+    "dos_amp": 97214
+  },
+  "total_flows": 336699,
+  "combined_csv": "C:/Users/PMYLS/Desktop/AI-TDP/data/elegant/flows/elegant_flows_all.csv",
+  "balanced_csv": "data/elegant/flows/elegant_flows_balanced.csv",
+  "train_csv": "data/elegant/flows/elegant_flows_train.csv",
+  "test_csv": "data/elegant/flows/elegant_flows_test.csv",
+  "balanced_label_counts": {
+    "normal": 5000,
+    "dos_flood": 5000,
+    "dos_amp": 5000,
+    "mitm_full_chain": 50,
+    "mitm_arp": 47
+  },
+  "n_features": 70,
+  "feature_columns": [
+    "Flow ID",
+    "Src IP",
+    "Src Port",
+    "Dst IP",
+    "Dst Port",
+    "Protocol",
+    "Timestamp",
+    "Flow Duration",
+    "Tot Fwd Pkts",
+    "Tot Bwd Pkts",
+    "TotLen Fwd Pkts",
+    "TotLen Bwd Pkts",
+    "Fwd Pkt Len Max",
+    "Fwd Pkt Len Min",
+    "Fwd Pkt Len Mean",
+    "Fwd Pkt Len Std",
+    "Bwd Pkt Len Max",
+    "Bwd Pkt Len Min",
+    "Bwd Pkt Len Mean",
+    "Bwd Pkt Len Std",
+    "Flow Byts/s",
+    "Flow Pkts/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Tot",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Tot",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd PSH Flags",
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "Fwd Header Len",
+    "Bwd Header Len",
+    "Fwd Pkts/s",
+    "Bwd Pkts/s",
+    "Pkt Len Min",
+    "Pkt Len Max",
+    "Pkt Len Mean",
+    "Pkt Len Std",
+    "Pkt Len Var",
+    "FIN Flag Cnt",
+    "SYN Flag Cnt",
+    "RST Flag Cnt",
+    "PSH Flag Cnt",
+    "ACK Flag Cnt",
+    "URG Flag Cnt",
+    "CWE Flag Count",
+    "ECE Flag Cnt",
+    "Down/Up Ratio",
+    "Pkt Size Avg",
+    "Fwd Seg Size Avg",
+    "Bwd Seg Size Avg",
+    "Init Fwd Win Byts",
+    "Init Bwd Win Byts",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min",
+    "Modbus Pkts",
+    "Modbus Fn3 Count",
+    "Modbus Fn Other Count",
+    "Scenario",
+    "SourceFile",
+    "InAttackWindow",
+    "Label"
+  ]
+}

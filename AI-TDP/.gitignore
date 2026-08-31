@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Large datasets (see data/README.md for acquisition)
+data/**/*.csv
+data/**/SWaT.A12_PCAPs_Mar_26/
+data/elegant/
+data/iec104/
+!data/README.md
+!data/**/README.md
+
+# Generated window tensors and scalers (regenerate via Phase 3)
+behavior/outputs/windows/*.npz
+behavior/outputs/scalers/
+
+# Model checkpoints and heavy experiment artifacts
+baselines/outputs/**/checkpoints/
+baselines/outputs/**/embeddings.npz
+baselines/outputs/**/*.png
+baselines/dist/*.zip
+*.pt
+*.pth
+*.npz
+*.pkl
+*.joblib
+
+# Temp / scratch
+reports/_tmp/
+*.log

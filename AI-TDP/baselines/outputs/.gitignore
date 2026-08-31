@@ -1,0 +1,7 @@
+# Ignore heavy artifacts; keep configs, metrics, and reports
+checkpoints/
+**/checkpoints/
+embeddings.npz
+*.png
+*.pt
+*.pth

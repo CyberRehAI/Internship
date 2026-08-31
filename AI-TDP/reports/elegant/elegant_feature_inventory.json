@@ -1,0 +1,480 @@
+{
+  "archives": [
+    {
+      "rel": "DoS/multiple_amp_0130_0200.tar.gz",
+      "bytes": 897375626,
+      "mb": 897.38
+    },
+    {
+      "rel": "DoS/multiple_flood_0100_0125.tar.gz",
+      "bytes": 841988706,
+      "mb": 841.99
+    },
+    {
+      "rel": "DoS/single_amp_t1.zip",
+      "bytes": 288244505,
+      "mb": 288.24
+    },
+    {
+      "rel": "DoS/single_amp_t2.zip",
+      "bytes": 297258132,
+      "mb": 297.26
+    },
+    {
+      "rel": "DoS/single_flood_rate_1_t1.zip",
+      "bytes": 13627814,
+      "mb": 13.63
+    },
+    {
+      "rel": "DoS/single_flood_rate_1_t2.zip",
+      "bytes": 13275725,
+      "mb": 13.28
+    },
+    {
+      "rel": "DoS/single_flood_rate_2_t1.zip",
+      "bytes": 366001904,
+      "mb": 366.0
+    },
+    {
+      "rel": "DoS/single_flood_rate_2_t2.zip",
+      "bytes": 374344917,
+      "mb": 374.34
+    },
+    {
+      "rel": "MiTM/MiTM_ARP_Poisoning.tar.gz",
+      "bytes": 886451,
+      "mb": 0.89
+    },
+    {
+      "rel": "MiTM/MiTM_Full_Chain.tar.gz",
+      "bytes": 1125617,
+      "mb": 1.13
+    },
+    {
+      "rel": "MiTM/normal_PLC_traffic.tar.gz",
+      "bytes": 12454259,
+      "mb": 12.45
+    }
+  ],
+  "pcap_analyses": {
+    "dos_flood_r1": {
+      "file": "data/elegant/extracted/dos_flood_r1_t1/cap_00001_20210313193832",
+      "size_bytes": 10000048,
+      "packets_scanned": 20000,
+      "protocols": {
+        "TCP": 19978,
+        "Modbus/TCP(port502)": 19978,
+        "ARP": 18,
+        "UDP": 2,
+        "ICMP": 2
+      },
+      "ethertypes": {
+        "0x800": 19982,
+        "0x806": 18
+      },
+      "ip_pairs": {
+        "192.168.10.2->192.168.12.2": 6542,
+        "192.168.10.2->192.168.11.2": 6540,
+        "192.168.12.2->192.168.10.2": 3272,
+        "192.168.11.2->192.168.10.2": 3270,
+        "177.94.60.77->192.168.10.2": 1,
+        "93.164.141.52->192.168.10.2": 1,
+        "77.251.192.138->192.168.10.2": 1,
+        "152.101.197.80->192.168.10.2": 1,
+        "212.5.159.61->192.168.10.2": 1,
+        "164.36.240.88->192.168.10.2": 1,
+        "80.164.69.36->192.168.10.2": 1,
+        "82.79.26.127->192.168.10.2": 1,
+        "85.43.198.231->192.168.10.2": 1,
+        "143.216.26.93->192.168.10.2": 1,
+        "189.10.51.197->192.168.10.2": 1,
+        "65.77.25.48->192.168.10.2": 1,
+        "152.250.42.188->192.168.10.2": 1,
+        "98.143.107.209->192.168.10.2": 1,
+        "197.7.240.223->192.168.10.2": 1,
+        "149.79.196.70->192.168.10.2": 1
+      },
+      "tcp_ports": {
+        "502": 19978,
+        "58032": 9810,
+        "51000": 9810,
+        "1982": 1,
+        "1983": 1,
+        "1984": 1,
+        "1985": 1,
+        "1986": 1,
+        "1987": 1,
+        "1988": 1,
+        "1989": 1,
+        "1990": 1,
+        "1992": 1,
+        "1993": 1,
+        "1994": 1,
+        "1995": 1,
+        "1996": 1,
+        "1997": 1,
+        "1998": 1,
+        "1999": 1
+      },
+      "udp_ports": {
+        "503": 2,
+        "56590": 1,
+        "50540": 1
+      },
+      "arp_ops": {
+        "1": 9,
+        "2": 9
+      },
+      "modbus_fn": {
+        "3": 13080,
+        "88": 358
+      },
+      "tcp_flags": {
+        "PA": 13080,
+        "A": 6540,
+        "SP": 358
+      },
+      "marker_payloads": [
+        "__ATTACK_START__ DOS  \n",
+        "__ATTACK_START__ DOS  \n"
+      ],
+      "sample_fields": [
+        "arp.hwdst",
+        "arp.hwsrc",
+        "arp.op",
+        "arp.pdst",
+        "arp.psrc",
+        "eth.dst",
+        "eth.src",
+        "eth.type",
+        "ip.dst",
+        "ip.len",
+        "ip.proto",
+        "ip.src",
+        "ip.ttl",
+        "modbus.func_code",
+        "modbus.transaction_id",
+        "modbus.unit_id",
+        "tcp.ack",
+        "tcp.dport",
+        "tcp.flags",
+        "tcp.len",
+        "tcp.seq",
+        "tcp.sport",
+        "tcp.window",
+        "udp.dport",
+        "udp.len",
+        "udp.sport"
+      ],
+      "pkt_len_min": 42,
+      "pkt_len_max": 174,
+      "pkt_len_mean": 76.75
+    },
+    "dos_amp_t1": {
+      "file": "data/elegant/extracted/dos_amp_t1/cap_00485_20210313201342",
+      "size_bytes": 10000008,
+      "packets_scanned": 20000,
+      "protocols": {
+        "TCP": 20000,
+        "Modbus/TCP(port502)": 20000
+      },
+      "ethertypes": {
+        "0x800": 20000
+      },
+      "ip_pairs": {
+        "192.168.10.2->192.168.12.2": 3,
+        "54.211.57.219->192.168.10.2": 2,
+        "192.168.12.2->192.168.10.2": 2,
+        "192.168.10.2->192.168.11.2": 2,
+        "148.5.124.58->192.168.10.2": 1,
+        "245.107.107.219->192.168.10.2": 1,
+        "67.84.21.186->192.168.10.2": 1,
+        "103.214.169.237->192.168.10.2": 1,
+        "189.178.157.204->192.168.10.2": 1,
+        "58.96.199.107->192.168.10.2": 1,
+        "104.146.92.70->192.168.10.2": 1,
+        "196.238.178.30->192.168.10.2": 1,
+        "57.236.196.101->192.168.10.2": 1,
+        "131.169.75.155->192.168.10.2": 1,
+        "64.80.163.63->192.168.10.2": 1,
+        "93.66.0.249->192.168.10.2": 1,
+        "133.76.111.114->192.168.10.2": 1,
+        "139.80.178.6->192.168.10.2": 1,
+        "78.5.171.14->192.168.10.2": 1,
+        "33.83.93.63->192.168.10.2": 1
+      },
+      "tcp_ports": {
+        "502": 20000,
+        "51062": 5,
+        "58100": 3,
+        "3308": 2,
+        "5074": 2,
+        "779": 2,
+        "1640": 2,
+        "2481": 2,
+        "56138": 2,
+        "1764": 2,
+        "2620": 2,
+        "2724": 2,
+        "64800": 2,
+        "64806": 2,
+        "65045": 2,
+        "1256": 2,
+        "56589": 2,
+        "543": 2,
+        "3912": 2,
+        "51526": 2
+      },
+      "udp_ports": {},
+      "arp_ops": {},
+      "modbus_fn": {
+        "88": 19990,
+        "3": 5
+      },
+      "tcp_flags": {
+        "SP": 19991,
+        "PA": 5,
+        "A": 3,
+        "SA": 1
+      },
+      "marker_payloads": [],
+      "sample_fields": [
+        "eth.dst",
+        "eth.src",
+        "eth.type",
+        "ip.dst",
+        "ip.len",
+        "ip.proto",
+        "ip.src",
+        "ip.ttl",
+        "modbus.func_code",
+        "modbus.transaction_id",
+        "modbus.unit_id",
+        "tcp.ack",
+        "tcp.dport",
+        "tcp.flags",
+        "tcp.len",
+        "tcp.seq",
+        "tcp.sport",
+        "tcp.window"
+      ],
+      "pkt_len_min": 60,
+      "pkt_len_max": 174,
+      "pkt_len_mean": 173.95
+    },
+    "mitm_arp": {
+      "file": "data/elegant/extracted/mitm_arp/cap_00001_20210318034103",
+      "size_bytes": 1813408,
+      "packets_scanned": 16583,
+      "protocols": {
+        "TCP": 16581,
+        "Modbus/TCP(port502)": 16581,
+        "UDP": 2
+      },
+      "ethertypes": {
+        "0x800": 16583
+      },
+      "ip_pairs": {
+        "10.2.33.223->10.2.32.133": 11054,
+        "10.2.32.133->10.2.33.223": 5527,
+        "10.2.32.131->10.2.33.223": 2
+      },
+      "tcp_ports": {
+        "40554": 16581,
+        "502": 16581
+      },
+      "udp_ports": {
+        "502": 2,
+        "34049": 1,
+        "50005": 1
+      },
+      "arp_ops": {},
+      "modbus_fn": {
+        "3": 11054
+      },
+      "tcp_flags": {
+        "PA": 11054,
+        "A": 5527
+      },
+      "marker_payloads": [
+        "__MiTM_ATTACK_START__  \n",
+        "__MiTM_ATTACK_END__ MITM ettercap -T -q -i enp1s0f0 -M arp \\/10.2.33.223\\/ \\/10.2.32.133\\/ \n"
+      ],
+      "sample_fields": [
+        "eth.dst",
+        "eth.src",
+        "eth.type",
+        "ip.dst",
+        "ip.len",
+        "ip.proto",
+        "ip.src",
+        "ip.ttl",
+        "modbus.func_code",
+        "modbus.transaction_id",
+        "modbus.unit_id",
+        "tcp.ack",
+        "tcp.dport",
+        "tcp.flags",
+        "tcp.len",
+        "tcp.seq",
+        "tcp.sport",
+        "tcp.window",
+        "udp.dport",
+        "udp.len",
+        "udp.sport"
+      ],
+      "pkt_len_min": 66,
+      "pkt_len_max": 134,
+      "pkt_len_mean": 75.0
+    },
+    "mitm_full": {
+      "file": "data/elegant/extracted/mitm_full/cap_00001_20210318095210",
+      "size_bytes": 1726816,
+      "packets_scanned": 15791,
+      "protocols": {
+        "TCP": 15789,
+        "Modbus/TCP(port502)": 15789,
+        "UDP": 2
+      },
+      "ethertypes": {
+        "0x800": 15791
+      },
+      "ip_pairs": {
+        "10.2.33.223->10.2.32.133": 10526,
+        "10.2.32.133->10.2.33.223": 5263,
+        "10.2.32.131->10.2.33.223": 2
+      },
+      "tcp_ports": {
+        "40554": 15789,
+        "502": 15789
+      },
+      "udp_ports": {
+        "502": 2,
+        "33668": 1,
+        "42990": 1
+      },
+      "arp_ops": {},
+      "modbus_fn": {
+        "3": 10526
+      },
+      "tcp_flags": {
+        "PA": 10526,
+        "A": 5263
+      },
+      "marker_payloads": [
+        "__MiTM_ATTACK_START__  \n",
+        "__MiTM_ATTACK_END__ MITM ettercap -T -q -i enp1s0f0 -M arp \\/10.2.33.223\\/ \\/10.2.32.133\\/ \n"
+      ],
+      "sample_fields": [
+        "eth.dst",
+        "eth.src",
+        "eth.type",
+        "ip.dst",
+        "ip.len",
+        "ip.proto",
+        "ip.src",
+        "ip.ttl",
+        "modbus.func_code",
+        "modbus.transaction_id",
+        "modbus.unit_id",
+        "tcp.ack",
+        "tcp.dport",
+        "tcp.flags",
+        "tcp.len",
+        "tcp.seq",
+        "tcp.sport",
+        "tcp.window",
+        "udp.dport",
+        "udp.len",
+        "udp.sport"
+      ],
+      "pkt_len_min": 66,
+      "pkt_len_max": 134,
+      "pkt_len_mean": 75.0
+    },
+    "normal": {
+      "file": "data/elegant/extracted/normal/cap_00001_20210318035345",
+      "size_bytes": 10000020,
+      "packets_scanned": 20000,
+      "protocols": {
+        "TCP": 20000,
+        "Modbus/TCP(port502)": 20000
+      },
+      "ethertypes": {
+        "0x800": 20000
+      },
+      "ip_pairs": {
+        "10.2.33.223->10.2.32.133": 13333,
+        "10.2.32.133->10.2.33.223": 6667
+      },
+      "tcp_ports": {
+        "40554": 20000,
+        "502": 20000
+      },
+      "udp_ports": {},
+      "arp_ops": {},
+      "modbus_fn": {
+        "3": 13334
+      },
+      "tcp_flags": {
+        "PA": 13334,
+        "A": 6666
+      },
+      "marker_payloads": [],
+      "sample_fields": [
+        "eth.dst",
+        "eth.src",
+        "eth.type",
+        "ip.dst",
+        "ip.len",
+        "ip.proto",
+        "ip.src",
+        "ip.ttl",
+        "modbus.func_code",
+        "modbus.transaction_id",
+        "modbus.unit_id",
+        "tcp.ack",
+        "tcp.dport",
+        "tcp.flags",
+        "tcp.len",
+        "tcp.seq",
+        "tcp.sport",
+        "tcp.window"
+      ],
+      "pkt_len_min": 66,
+      "pkt_len_max": 81,
+      "pkt_len_mean": 75.0
+    }
+  },
+  "native_features_available": [
+    "frame.time / ts_sec / ts_usec",
+    "frame.len / incl_len / orig_len",
+    "eth.src",
+    "eth.dst",
+    "eth.type",
+    "arp.op",
+    "arp.psrc",
+    "arp.pdst",
+    "arp.hwsrc",
+    "arp.hwdst",
+    "ip.src",
+    "ip.dst",
+    "ip.proto",
+    "ip.len",
+    "ip.ttl",
+    "tcp.sport",
+    "tcp.dport",
+    "tcp.flags",
+    "tcp.seq",
+    "tcp.ack",
+    "tcp.window",
+    "udp.sport",
+    "udp.dport",
+    "udp.len",
+    "modbus.transaction_id",
+    "modbus.unit_id",
+    "modbus.func_code",
+    "modbus.register_data",
+    "label_via_udp_markers_ATTACK_START_END"
+  ]
+}

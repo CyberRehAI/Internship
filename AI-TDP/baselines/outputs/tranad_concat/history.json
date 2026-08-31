@@ -1,0 +1,13 @@
+{
+  "history": {
+    "train_loss": [
+      21771624.517209303
+    ],
+    "val_loss": [
+      3.8530660622556443
+    ]
+  },
+  "best_epoch": 1,
+  "best_val_loss": 3.8530660622556443,
+  "device": "cpu"
+}

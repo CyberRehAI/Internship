@@ -1,0 +1,23 @@
+{
+  "model_id": "lstm_ae_net",
+  "embeddings_dir": "D:/AI-TDP/baselines/outputs/lstm_ae_net/embeddings",
+  "quantile": 0.95,
+  "threshold": 243.8839736938477,
+  "n_val": 355,
+  "n_test": 1441,
+  "val_fpr": 0.05070422535211268,
+  "test_detection_rate": 0.056210964607911175,
+  "val_union_test": {
+    "precision": 0.8181818181818182,
+    "recall": 0.056210964607911175,
+    "f1": 0.10519480519480519,
+    "roc_auc": 0.5506191905073747,
+    "pr_auc": 0.8127810405963147
+  },
+  "score_stats": {
+    "val_mean": 78.95965530502964,
+    "val_std": 83.3677933826442,
+    "test_mean": 87.40512023842393,
+    "test_std": 87.16306994388987
+  }
+}

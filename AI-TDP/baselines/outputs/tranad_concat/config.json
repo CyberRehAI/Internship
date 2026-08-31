@@ -1,0 +1,38 @@
+{
+  "model": "TranAD",
+  "model_id": "tranad_concat",
+  "mode": "concat",
+  "windows_dir": "D:/AI-TDP/behavior/outputs/windows",
+  "out_dir": "D:/AI-TDP/baselines/outputs/tranad_concat",
+  "n_features": 194,
+  "T": 60,
+  "d_model": 64,
+  "nhead": 4,
+  "num_layers": 2,
+  "dim_feedforward": 128,
+  "dropout": 0.1,
+  "latent_dim": 32,
+  "batch_size": 64,
+  "lr": 0.001,
+  "epochs": 1,
+  "patience": 1,
+  "seed": 42,
+  "device": "cpu",
+  "best_epoch": 1,
+  "best_val_loss": 3.8530660622556443,
+  "test_mse": 58031.280861001476,
+  "embedding_counts": {
+    "train": {
+      "n": 1075,
+      "latent_dim": 32
+    },
+    "val": {
+      "n": 355,
+      "latent_dim": 32
+    },
+    "test": {
+      "n": 1441,
+      "latent_dim": 32
+    }
+  }
+}

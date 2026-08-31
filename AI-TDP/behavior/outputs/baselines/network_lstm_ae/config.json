@@ -1,0 +1,45 @@
+{
+  "model": "LSTMAE",
+  "domain": "net",
+  "role": "baseline_parallel_to_phase4_tcn",
+  "windows_dir": "D:/AI-TDP/behavior/outputs/windows",
+  "out_dir": "D:/AI-TDP/behavior/outputs/baselines/network_lstm_ae",
+  "n_features": 7,
+  "T": 60,
+  "hidden_dim": 64,
+  "latent_dim": 32,
+  "num_layers": 1,
+  "dropout": 0.0,
+  "batch_size": 64,
+  "lr": 0.001,
+  "epochs": 2,
+  "patience": 2,
+  "seed": 42,
+  "device": "cpu",
+  "best_epoch": 2,
+  "best_val_loss": 78.95965427882234,
+  "test_mse": 87.40512034663055,
+  "embedding_counts": {
+    "train": {
+      "n": 1075,
+      "latent_dim": 32
+    },
+    "val": {
+      "n": 355,
+      "latent_dim": 32
+    },
+    "test": {
+      "n": 1441,
+      "latent_dim": 32
+    }
+  },
+  "artifacts": {
+    "best_checkpoint": "D:/AI-TDP/behavior/outputs/baselines/network_lstm_ae/best.pt",
+    "history": "D:/AI-TDP/behavior/outputs/baselines/network_lstm_ae/history.json",
+    "embeddings": {
+      "train": "D:/AI-TDP/behavior/outputs/baselines/network_lstm_ae/embeddings/train.npz",
+      "val": "D:/AI-TDP/behavior/outputs/baselines/network_lstm_ae/embeddings/val.npz",
+      "test": "D:/AI-TDP/behavior/outputs/baselines/network_lstm_ae/embeddings/test.npz"
+    }
+  }
+}

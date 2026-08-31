@@ -1,0 +1,27 @@
+{
+  "setup": "train hours 1+2 (09:00-11:00), eval hour 3 (11:00-12:00), normal",
+  "n_train": 710,
+  "n_eval": 355,
+  "epochs": 50,
+  "latent_dim": 32,
+  "Mahalanobis": {
+    "mean_tr": 31.728767101257738,
+    "mean_ev": 247.95454306090414,
+    "ratio": 7.814818088253897,
+    "pct_tr": 5.070422535211268,
+    "pct_ev": 94.64788732394366,
+    "thr": 80.59376555084417,
+    "n_anom": 336,
+    "verdict": "behavioral_drift"
+  },
+  "IsolationForest": {
+    "mean_tr": -0.12623952048976397,
+    "mean_ev": -0.10268606221711611,
+    "ratio": 0.8134224672173269,
+    "pct_tr": 5.070422535211268,
+    "pct_ev": 6.478873239436619,
+    "thr": -6.949735925632083e-17,
+    "n_anom": 23,
+    "verdict": "generalized"
+  }
+}

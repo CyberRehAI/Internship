@@ -1,0 +1,44 @@
+{
+  "experiment_id": 4,
+  "train_hour_id": 7,
+  "eval_hour_id": 8,
+  "train_hour_label": "15:00-16:00",
+  "eval_hour_label": "16:00-17:00",
+  "regime": "attack",
+  "threshold": 83.72712191283742,
+  "quantile": 0.95,
+  "mahalanobis_ratio": 13.16827226990548,
+  "verdict": "behavioral_drift",
+  "train": {
+    "n_windows": 355,
+    "mahalanobis": {
+      "mean": 31.249537112800695,
+      "median": 23.09329207516356,
+      "std": 22.825978970769516,
+      "pct_above_threshold": 5.070422535211268,
+      "n_anomalous": 18,
+      "n_windows": 355
+    },
+    "recon": {
+      "lstm_mean": 86.4286525941231,
+      "usad_mean": 252871.35579335387,
+      "tranad_mean": 4.044978404089703
+    }
+  },
+  "eval": {
+    "n_windows": 361,
+    "mahalanobis": {
+      "mean": 411.5024130098755,
+      "median": 255.54804537609175,
+      "std": 335.9972017271982,
+      "pct_above_threshold": 89.47368421052632,
+      "n_anomalous": 323,
+      "n_windows": 361
+    },
+    "recon": {
+      "lstm_mean": 78.65953396297888,
+      "usad_mean": 9709.653006514023,
+      "tranad_mean": 0.09545624090508245
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "role": "experimental_stacked_baseline_cascade",
+  "stage1_lstm": {
+    "history": {
+      "train_loss": [
+        1.0009715557098389,
+        0.995952382683754
+      ],
+      "val_loss": [
+        1.035502314567566,
+        1.0335228443145752
+      ]
+    },
+    "best_epoch": 2,
+    "best_val_loss": 1.0335228443145752
+  },
+  "stage2_usad": {
+    "history": {
+      "train_loss": [
+        1.5994484722614288,
+        1.5950945019721985
+      ],
+      "val_loss": [
+        0.8073219060897827,
+        0.8056855201721191
+      ]
+    },
+    "best_epoch": 2,
+    "best_val_loss": 0.8056855201721191
+  },
+  "stage3_tranad": {
+    "history": {
+      "train_loss": [
+        0.9340203702449799,
+        0.7629034072160721
+      ],
+      "val_loss": [
+        0.7882055342197418,
+        0.6950696408748627
+      ]
+    },
+    "best_epoch": 2,
+    "best_val_loss": 0.6950696408748627
+  },
+  "device": "cpu"
+}
